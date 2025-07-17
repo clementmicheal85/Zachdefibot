@@ -12,9 +12,9 @@ from telegram.ext import (
 
 # ===== Configuration =====
 TOKEN = "7625161253:AAHnAhkQHyImRtfig0C5DqNFHuWYawfGv_4"  # TESTING ONLY - REVOKE LATER
-CHANNEL_LINK = "https://t.me/your_channel"  # Change to your channel
-GROUP_LINK = "https://t.me/your_group"     # Change to your group
-TWITTER_LINK = "https://twitter.com/your_profile"  # Change to your Twitter
+CHANNEL_LINK = "https://t.me/AGAcoins"  # Updated to your channel
+GROUP_LINK = "https://t.me/Agamacoin2025"  # Updated to your group
+TWITTER_LINK = "https://x.com/Agama_coin?t=KAVx1ciTSpzDxK1JnsJ5xw&s=09"  # Updated to your Twitter
 
 # ===== Helper Functions =====
 def generate_solscan_link():
@@ -33,7 +33,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
     
     await update.message.reply_text(
-        "🎉 Welcome to Airdrop Bot!\n\n"
+        "🎉 Welcome to AGAcoins Airdrop Bot!\n\n"
         "To participate:\n"
         "1. Join our channel\n"
         "2. Join our group\n"
